@@ -1,4 +1,6 @@
 /* Nedlloyd feature layer — themes + widgets */
+.header-logo-img{height:1.8rem;width:auto;display:block;object-fit:contain}
+@media (max-width:767px){.header-logo-img{height:1.5rem}}
 html[data-nl-theme="blue"]{--_color---m-black:#0B2A5B;--_color---primary:#FF6A00;--_color---secondary:#FF6A00}
 html[data-nl-theme="dark"]{--_color---primary:#4D7CFF;--_color---secondary:#FF8A3D}
 html[data-nl-theme="dark"] body{filter:invert(1) hue-rotate(180deg);background:#111}
