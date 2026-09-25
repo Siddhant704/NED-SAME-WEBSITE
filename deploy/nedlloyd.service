@@ -1,0 +1,11 @@
+[Unit]
+Description=Nedlloyd website
+After=network.target
+[Service]
+WorkingDirectory=/var/www/nedlloyd
+ExecStart=/usr/bin/python3 /var/www/nedlloyd/server.py 8090
+Environment=ANTHROPIC_API_KEY=
+Restart=always
+User=www-data
+[Install]
+WantedBy=multi-user.target

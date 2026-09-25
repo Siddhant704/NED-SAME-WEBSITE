@@ -1,0 +1,17 @@
+NEDLLOYD LOGISTICS — LOCAL COPY
+
+START:  double-click "START WEBSITE.command"  (site opens in browser)
+STOP:   close the black window
+
+DASHBOARD:  http://localhost:8090/nedlloydgroup.com/dashboard.html
+            demo logins: admin/admin · client/client · customer/customer · employee/employee
+AI CHAT:    works offline from a built-in knowledge base. For full Claude AI answers:
+            export ANTHROPIC_API_KEY=sk-...   before starting the server.
+DATA:       data/nedlloyd.db (leads, jobs, chats, page hits)
+
+FOLDERS
+nedlloydgroup.com/   all pages (index.html = home) + downloads/ (company profile PDF)
+addons/              Nedlloyd feature layer: themes, WhatsApp, quote form, AI chat/search, dashboard
+server.py            static server with video streaming + JSON API
+cdn.prod.website-files.com/  CSS, fonts, images, videos, 700 scroll-animation frames
+app/                 animation engine (GSAP, Three.js globe, Lenis scroll, Barba transitions)
